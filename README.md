@@ -1,6 +1,7 @@
 # Certified mesh bound (Arb / python-flint)
 
-Companion code for the certified mesh maximum computation appearing in our forthcoming paper.
+Companion code for the certified mesh maximum computation appearing in paper (arXiv:2602.12217): https://arxiv.org/abs/2602.12217
+
 
 This repository contains a single script `cert_mesh_arb.py` that computes a **rigorous upper bound**
 for a mesh maximum using Arb ball arithmetic via `python-flint` (FLINT/Arb bindings for Python).
@@ -37,6 +38,7 @@ python -m pip install -U python-flint
 ```
 
 ## Running the script
+Typical runtime: under 1 minute on a modern desktop/laptop.
 
 From the repository directory, run:
 
